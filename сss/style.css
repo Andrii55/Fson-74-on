@@ -4,10 +4,11 @@
 --second-header-color: #FFFFFF;
 --primery-link-color: #FFFFFF;
 --accent-color: #FF6C00;
+--main-font: 'Open-Sans', sans-serif;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--main-font)
 }
 
 /* -----------UNIVERSAL CLASSES----------- */
@@ -30,7 +31,7 @@ text-transform: uppercase;
 }
 
 .header-btn:hover,
-.header-dtn:focus{
+.header-btn:focus{
     background-color: var(--accent-color);
 }
 .pre-title{
@@ -132,10 +133,8 @@ color: #303030;
 
 /* -----------ABOUT----------- */
 
-.about {
-}
 .about-pre-title {
-    color: #303030;    
+color: #303030;    
 }
 .about-title {
 color: var(--primery-header-color);
@@ -273,7 +272,7 @@ font-weight: 700;
 color: #FFFFFF;
 }
 
-.contakts-text {
+.contacts-text {
 font-style: normal;
 font-size: 18px;
 line-height: 1.67;
